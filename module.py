@@ -1,4 +1,12 @@
+class Death(object):
 
-def apple():
+    def dialouge():
+        print("You died my child")
+        exit(1)
 
-    print("I AM APPLE!")
+
+class Win(object):
+
+    def dialouge():
+        print('u winded')
+        exit(1)
